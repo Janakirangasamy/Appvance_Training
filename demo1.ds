@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-  <testcase name='' description='script generated from Web Designer' author='Janaki_Rangasamy_CAYUSE@appvance.com' version='webDesigner'>
+  <testcase name='' description='script generated from Web Designer' author='Mohanraj_Seerangan_CAYUSE@appvance.com' version='webDesigner'>
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7aa0c64b-0316-45d2-8c51-36ce7dc54d1b' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8d5e2575-1833-422f-a7ec-42de32abf063' uiType='base'>
       <dialect type='sahi'>
