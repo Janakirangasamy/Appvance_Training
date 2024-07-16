@@ -1,0 +1,14 @@
+{
+	"customActions": [],
+	"validations": [
+		{
+			"triggerType": "element",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "Basic_validation",
+			"match": "span(0, _in(div(\"product_1\")))",
+			"target": "span(0, _in(div(\"product_1\")))"
+		}
+	]
+}
