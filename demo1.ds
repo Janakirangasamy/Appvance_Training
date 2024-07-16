@@ -45,7 +45,12 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='854a8de3-4ce8-4c06-b852-b3072ebf5b33' uiType='base'>
+    <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e355e75d-ce65-4341-8593-902d2f4534e7' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='filePath' value='"{ds}/demo_copY.ds"' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='854a8de3-4ce8-4c06-b852-b3072ebf5b33' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
@@ -57,7 +62,7 @@
         <accessor type='RelativeXPath' value='byXPath("id(&apos;home-link&apos;)/a[1]")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='16a413ad-9408-4f45-b93b-40591a245e0c' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='16a413ad-9408-4f45-b93b-40591a245e0c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='span(0, _in(div("product_3")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_3&apos;})))' selected='false' fallback='true'></accessor>
@@ -71,7 +76,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;span[title="Ruby on Rails Baseball Jersey"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='clickXY' value='"292,8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b8506460-5528-4bac-acc8-bdc7de7631c4' uiType='base'>
+    <step action='clickXY' value='"292,8"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b8506460-5528-4bac-acc8-bdc7de7631c4' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='div(5, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='div(5, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
@@ -85,7 +90,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;#inside-product-cart-form &gt; .col-md-5 &gt; .add-to-cart &gt; .input-group&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='144cec7a-37b9-4bd2-9a18-f0dd1594793c' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='144cec7a-37b9-4bd2-9a18-f0dd1594793c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(1, _in(form("update-cart")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(1, _in(form({&apos;id&apos;:&apos;update-cart&apos;})))' selected='false' fallback='true'></accessor>
