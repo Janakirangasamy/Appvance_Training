@@ -3,6 +3,9 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='addValidationsWorkbench' value='"{ds}/Using_validation.valid"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9b314c5e-2b21-4e05-b4d7-1e00fae87daf' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7aa0c64b-0316-45d2-8c51-36ce7dc54d1b' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
