@@ -19,8 +19,12 @@
 			"scanOnePerPage": false,
 			"info": {},
 			"methods": {},
-			"validators": [],
-			"extractors": [],
+			"validators": [
+				"ValidateQty"
+			],
+			"extractors": [
+				"extractingqtybefore"
+			],
 			"disabled": false,
 			"description": "",
 			"image": ""
@@ -28,6 +32,29 @@
 	],
 	"actions": [],
 	"customTags": [],
-	"validators": [],
-	"extractors": []
+	"validators": [
+		{
+			"name": "ValidateQty",
+			"when": "preAction",
+			"operator": "equals",
+			"type": "xpath",
+			"value": "//input[@id='quantity']",
+			"target": "",
+			"where": "",
+			"locator": "",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	],
+	"extractors": [
+		{
+			"name": "extractingqtybefore",
+			"when": "preAction",
+			"value": "//input[@id='quantity']",
+			"type": "xpath",
+			"variable": "preqty",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
 }
