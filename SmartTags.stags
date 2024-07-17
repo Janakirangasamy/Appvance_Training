@@ -35,7 +35,7 @@
 	"validators": [
 		{
 			"name": "ValidateQty",
-			"when": "preAction",
+			"when": "postAction",
 			"operator": "equals",
 			"type": "xpath",
 			"value": "//input[@id='quantity']",
