@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
   <testcase name='' description='script generated from Web Designer' author='Mohanraj_Seerangan_CAYUSE@appvance.com' version='webDesigner'>
-    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <dpl filename='{ds}/syntheticDPL/datadrivendpl.csv' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bf53481e-32f8-4f6f-8d53-718252ad077d' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='df191991-37d0-4004-95de-0ace0a2c4644' uiType='base'>
       <dialect type='sahi'>
@@ -121,7 +119,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"hg"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f789c2e0-7c9a-4cf3-a7a6-4faa27826b3d' uiType='base'>
+    <step action='setValue' value='$Emailid' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f789c2e0-7c9a-4cf3-a7a6-4faa27826b3d' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_email"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
