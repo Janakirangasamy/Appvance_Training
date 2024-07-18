@@ -29,7 +29,7 @@
     <userinfo/>
   </basics>
   <resources>
-    <resource name="DataDriven.ds" type="ds" path="REPOSITORY/Demo_Project/DataDriven.ds"/>
+    <resource name="DataDriven1.ds" type="ds" path="{scenario}/../DataDriven1.ds"/>
     <resource name="datadrivendpl.csv" type="csv" path="REPOSITORY/Demo_Project/syntheticDPL/datadrivendpl.csv"/>
   </resources>
   <testnodes>
@@ -42,7 +42,7 @@
     <bundle name="ds" version="3.0"/>
   </bundles>
   <datasources>
-    <dpl name="Untitled1" type="HashDPL" langtype="java" method="setup">
+    <dpl name="NewDpl" type="DynamicDicDPL" langtype="java" method="setup">
       <argument name="resource" dpl="Resources" method="getResourceByName">
         <argument name="file" value="datadrivendpl.csv"/>
       </argument>
@@ -128,6 +128,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>
@@ -149,9 +152,11 @@
     <controller name="Iteration1">
       <round iterations="1" totalusers="1"/>
     </controller>
-    <testcase name="Testcase1" importance="normal">
+    <testcase name="Testcase3" importance="normal">
       <test>
-        <run name="TestDD" langtype="ds3" resource="DataDriven.ds" method="ds" testclass="Chrome"/>
+        <run name="DDscript" langtype="ds3" resource="DataDriven1.ds" method="ds" testclass="Chrome">
+          <argument name="Untitled1" method="getData" dpl="NewDpl"/>
+        </run>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
@@ -160,7 +165,7 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="functionaltest" subtype="functional">
     <iteration name="Iteration1" controller="Iteration1">
-      <testcase name="Testcase1" users="1" totalexecutions="1"/>
+      <testcase name="Testcase3" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>
