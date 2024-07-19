@@ -20,7 +20,9 @@
 			"info": {},
 			"methods": {},
 			"validators": [],
-			"extractors": [],
+			"extractors": [
+				"ExtValue"
+			],
 			"disabled": false,
 			"description": "",
 			"image": ""
@@ -29,5 +31,15 @@
 	"actions": [],
 	"customTags": [],
 	"validators": [],
-	"extractors": []
+	"extractors": [
+		{
+			"name": "ExtValue",
+			"when": "preAction",
+			"value": "href",
+			"type": "attribute",
+			"variable": "href",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
 }
