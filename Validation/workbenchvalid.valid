@@ -2,12 +2,12 @@
 	"customActions": [],
 	"validations": [
 		{
-			"triggerType": "element",
+			"triggerType": "text",
 			"validationType": "element",
 			"disabled": false,
 			"passType": "pass",
 			"name": "validateproduct",
-			"match": "(//nav[@id='taxonomies']//a[3])[1]",
+			"match": "Shop by Categories",
 			"target": "(//*[text()='Ruby on Rails Baseball Jersey'])[1]"
 		}
 	]
