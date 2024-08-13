@@ -7,7 +7,7 @@
 			"disabled": false,
 			"passType": "pass",
 			"name": "validateproduct",
-			"match": "(//*[text()='Ruby on Rails Baseball Jersey'])[1]",
+			"match": "span(\"Ruby on Rails Baseball Jersey\")",
 			"target": "link(\"Home\")"
 		}
 	]
