@@ -7,8 +7,8 @@
 			"disabled": false,
 			"passType": "pass",
 			"name": "validateproduct",
-			"match": "Shop by Categories",
-			"target": "(//*[text()='Ruby on Rails Baseball Jersey'])[1]"
+			"match": "(//*[text()='Ruby on Rails Baseball Jersey'])[1]",
+			"target": "Shop by Categories"
 		}
 	]
 }
