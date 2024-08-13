@@ -2,7 +2,7 @@
 	"customActions": [],
 	"validations": [
 		{
-			"triggerType": "text",
+			"triggerType": "element",
 			"validationType": "element",
 			"disabled": false,
 			"passType": "pass",
