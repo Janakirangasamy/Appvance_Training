@@ -1,0 +1,14 @@
+{
+	"customActions": [],
+	"validations": [
+		{
+			"triggerType": "element",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "usingCategory",
+			"match": "byXPath('//nav[@id='taxonomies']//h4[1]')",
+			"target": "//nav[@id='taxonomies']/div[1]/a[2]"
+		}
+	]
+}
