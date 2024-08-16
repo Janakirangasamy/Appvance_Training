@@ -1,0 +1,14 @@
+{
+	"customActions": [],
+	"validations": [
+		{
+			"triggerType": "element",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "validateMug",
+			"match": "link('Home')",
+			"target": "link('Mugs')"
+		}
+	]
+}
