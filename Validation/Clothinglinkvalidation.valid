@@ -7,7 +7,7 @@
 			"disabled": false,
 			"passType": "pass",
 			"name": "usingCategory",
-			"match": "heading4(\"Shop by Categories\")",
+			"match": "(\"Shop by Categories\")",
 			"target": "link('Clothing')"
 		}
 	]
