@@ -8,7 +8,7 @@
 			"passType": "pass",
 			"name": "usingCategory",
 			"match": "byXPath('//h4[text()='Shop by Categories']')",
-			"target": "byXPath('//nav[@id='taxonomies']/div[1]/a[2]')"
+			"target": "link(\"Mugs\")"
 		}
 	]
 }
