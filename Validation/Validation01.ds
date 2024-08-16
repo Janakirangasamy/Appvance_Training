@@ -87,12 +87,12 @@
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fee450d6-86f6-46f6-928f-dc3618ed3a2d' uiType='base'>
       <dialect type='sahi'>
-        <accessor type='XPath' value='byXPath("//nav[@id=&apos;taxonomies&apos;]/div[1]/a[2]")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='link("Mugs")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//nav[@id=&apos;taxonomies&apos;]/div[1]/a[2]")' selected='false' fallback='true'></accessor>
         <accessor type='Parent' value='link(1, _in(nav("taxonomies")))' selected='false' fallback='true'></accessor>
         <accessor type='Parent' value='link(1, _in(nav({&apos;id&apos;:&apos;taxonomies&apos;})))' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='link("list-group-item[1]")' selected='false' fallback='true'></accessor>
         <accessor type='AttrHref' value='link("/t/mugs")' selected='false' fallback='true'></accessor>
-        <accessor type='Text' value='link("Mugs")' selected='false' fallback='true'></accessor>
         <accessor type='XPathText' value='byXPath(&apos;//*[text()="Mugs"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div/a[2]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/mugs"]&apos;)' selected='false' fallback='true'></accessor>
