@@ -7,7 +7,7 @@
 			"disabled": false,
 			"passType": "pass",
 			"name": "usingCategory",
-			"match": "byXPath('//nav[@id='taxonomies']//h4[1]')",
+			"match": "byXPath('//h4[text()='Shop by Categories']')",
 			"target": "//nav[@id='taxonomies']/div[1]/a[2]"
 		}
 	]
