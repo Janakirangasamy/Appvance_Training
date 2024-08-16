@@ -9,6 +9,15 @@
 			"name": "usingCategory",
 			"match": "link('Home')",
 			"target": "link('Clothing')"
+		},
+		{
+			"triggerType": "element",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "usingMug",
+			"match": "link('Home')",
+			"target": "link('Mugs')"
 		}
 	]
 }
