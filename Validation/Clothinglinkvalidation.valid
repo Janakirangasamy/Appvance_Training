@@ -2,12 +2,12 @@
 	"customActions": [],
 	"validations": [
 		{
-			"triggerType": "text",
+			"triggerType": "element",
 			"validationType": "element",
 			"disabled": false,
 			"passType": "pass",
 			"name": "usingCategory",
-			"match": "(\"Shop by Categories\")",
+			"match": "link('Home')",
 			"target": "link('Clothing')"
 		}
 	]
